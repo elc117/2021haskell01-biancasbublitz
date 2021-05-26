@@ -17,8 +17,13 @@ svgCircle x y r style =
 svgAll :: String
 svgAll = 
   svgBegin 500 500 ++ 
-  (svgCircle 60 60 50 "rgb(10, 145, 32, 0.4)") ++ 
-  (svgCircle 90 90 50 "rgb(105, 14, 30, 0.4)") ++ 
+  (svgCircle 300 300 500 "rgb(255, 255, 255, 1)") ++ 
+  (svgCircle 60 60 50 "rgb(10, 145, 32, 0.99)") ++ 
+  (svgCircle 90 90 50 "rgb(105, 14, 30, 0.5)") ++ 
+  (svgCircle 150 150 50 "rgb(200, 09, 200, 1)") ++ 
+  (svgCircle 500 500 100 "rgb(10, 250, 56, 1)") ++ 
+  (svgCircle 45 450 250 "rgb(50, 30, 76, 1)") ++ 
+  (svgCircle 500 150 90 "rgb(160, 255, 0, 1)") ++ 
   svgEnd
 
 main :: IO ()

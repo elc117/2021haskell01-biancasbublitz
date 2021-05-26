@@ -27,3 +27,6 @@ achaEspaco x
 
 circleArea :: Float -> Float
 circleArea r = pi * (r^2)
+
+achaElemento :: Char -> Char -> Bool
+achaElemento c1 c2 = c1 == c2

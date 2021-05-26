@@ -34,3 +34,7 @@ countSpaces x = sum (map achaEspaco x)
 -- 08
 calcAreas :: [Float] -> [Float]
 calcAreas x = map circleArea x
+
+-- 09 
+charFound :: Char -> String -> Bool
+charFound c s = any(True==) (map (achaElemento c) s)
